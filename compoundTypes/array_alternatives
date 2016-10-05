@@ -1,0 +1,5 @@
+vector<typeName> vt (n_elem);
+array<typeName, n_elem> arr;
+
+
+

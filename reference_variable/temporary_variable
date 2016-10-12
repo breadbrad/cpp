@@ -1,0 +1,9 @@
+Provided that the reference parameter is a const,
+the compiler generates a temporary variable in two situations below
+- When the actual argument is the correct type but isn't an 'lvalue'
+- When the actual argument is of the wrong type, but it's of a tpye that can be converted to the correct type.
+
+lvalue? -> an argument that's an lavalue is a data object that can be referenced by address. 
+ex) regular variables and a const variable 
+const variable -> non-modifiable lvalue
+
